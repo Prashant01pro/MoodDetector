@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodDetector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="main_container">
+            <h1>Mood Detector</h1>
+            <!-- 1.you can use this -->
+            <!-- <input type="text" id="custom_input" placeholder="Enter your Mood"> -->
+            <!-- 2. OR you can use this -->
+            <label for="custom_input">Select your Mood:</label>
+            <select id="custom_input">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="angry">Angry</option>
+                <option value="excited">Excited</option>
+                <option value="neutral">Neutral</option>
+            </select>
+
+            <button id="detectButton">Detect Mood</button>
+            <div class="emoji_container">
+                <button class="emoji" id="happy">☺️</button>
+                <button class="emoji" id="sad">😟</button>
+                <button class="emoji" id="angry">🤬</button>
+                <button class="emoji" id="excited">😃</button>
+                <button class="emoji" id="neutral">😐</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
